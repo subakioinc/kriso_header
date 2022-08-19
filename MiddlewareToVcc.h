@@ -40,7 +40,7 @@ typedef struct _MiddlewareToVcc {
 
 /*
 //from kriso integrated struct
-typedef struct _MiddlewareToVccNaviInfo {
+typedef struct _MiddlewareToVcc {
     uint8_t nav_mode; //항법모드 (single/RTK/INS)
     float nav_roll; //degree roll
     float nav_pitch; //degree pitch
@@ -66,5 +66,5 @@ typedef struct _MiddlewareToVccNaviInfo {
     float wea_watdir;   //degree 유향
     float wea_watspd;  //knots 유속
     float wea_visibiran; //m 가시거리
-} MiddlewareToVccNaviInfo;
+} MiddlewareToVcc;
 */
