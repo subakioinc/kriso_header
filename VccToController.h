@@ -34,4 +34,11 @@ typedef struct _VccToController{
     float dp_sway_dgain;
     float dp_yaw_pgain;
     float dp_yaw_dgain;
+    // DP
+    double surge_current;
+    double sway_current;
+    double yaw_current;
+    double heave_current;
+    double roll_current;
+    double pitch_current;
 } VccToController;
