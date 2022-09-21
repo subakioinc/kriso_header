@@ -7,8 +7,8 @@ typedef struct _VccToController{
     float hdg_cmd; // 선수각명령(해딩제어 모드)
     double target_wp_lat; // 목표 경유점 경도
     double target_wp_lon; // 목표 경유점 위도
-    double targetposition_X; // 목표 위치유지 목표 위치
-    double targetposition_Y; // 목표 위치유지 목표 위치
+    double targetposition_x; // 목표 위치유지 목표 위치
+    double targetposition_y; // 목표 위치유지 목표 위치
     float targetposition_yaw; // 동적 위치유지 목표 선수각
     // 충돌회피
     uint32_t ca_mode; // 충돌회피 모드 (Enable/Disable)

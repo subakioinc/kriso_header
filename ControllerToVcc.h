@@ -12,7 +12,7 @@ typedef struct _ControllerToVcc
     float psi_d;        // 추종 선수각
     float spd_d;        // 추종 속도
     float wp_lat_d;     // 추종 경유점 경도
-    float Wp_lon_d;     // 추종 경유점 위도
+    float wp_lon_d;     // 추종 경유점 위도
     uint32_t oper_Mode; // 현재 운용 모드
     // 충돌 회피
     uint32_t ca_mode;       // 충돌회피 모드(Enable/Disable)
