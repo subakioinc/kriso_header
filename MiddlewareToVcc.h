@@ -19,9 +19,9 @@ typedef struct _MiddlewareToVcc
     float wea_airtem;      // degree 공기 온도
     float wea_wattem;      // degree 해수 온도
     float wea_press;       // bar 기압
-    float wea_relhum       // % 상대습도
+    float wea_relhum;       // % 상대습도
     float wea_dewpt;       // degree 이슬점
-    float wea_windirt      // degree 풍향(절대)
+    float wea_windirt;      // degree 풍향(절대)
     float wea_winspdt;     // knots 풍속(절대)
     float wea_windirr;     // degree 풍향(상대)
     float wea_watspdr;     // knots 풍속(상대)
