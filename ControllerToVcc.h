@@ -33,5 +33,5 @@ typedef struct _ControllerToVcc
     double pitch;           // 운동 데이터
     uint32_t dp_start_stop; // DP 시작/중지 상태
     // Echo Back 신호
-    uint8_t rx_signal[180]; // 통합운항제어로부터 수신 정보(132 Byte)
+    uint8_t rx_signal[180]; // 통합운항제어로부터 수신 정보(180 Byte)
 } ControllerToVcc;
